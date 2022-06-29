@@ -31,6 +31,7 @@ header h1 {
 }
 
 .TitleQuizz {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +43,7 @@ header h1 {
 .TitleQuizz img {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 150px;
 }
 
 .TitleQuizz h2 {
@@ -223,7 +224,7 @@ section .PlayerScore {
 }
 
 .PlayerScore ul li div img {
-    width: 364px;
+    width: 360px;
     height: 273px;
 }
 
@@ -236,6 +237,41 @@ section .PlayerScore {
     line-height: 25px;
 
     color: #484848;
+}
+
+.FinishQuizz {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button {
+    width: 260px;
+    height: 52px;
+
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF5F4;
+    background: #EC362D;
+    border-radius: 15px;
+}
+
+.BackHome {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: #818181;
 }
 
 .Hidden {
