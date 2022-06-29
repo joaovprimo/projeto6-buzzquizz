@@ -16,57 +16,24 @@
 </head>
 
 <body>
-    <header>
-        <h1>BuzzQuizz</h1>
-    </header>
-    <section class="TitleQuizz ">
+    <header><h1>BuzzQuizz</h1></header>
+
+    <nav class="TelaInicial">
+        <section class="CriarQuizzes"></section>
+        <section class="TodosQuizzes">
+            <h2>Todos os Quizzes</h2>
+            <ul></ul>
+        </section>
+    </nav>
+
+
+    <nav class="TelaQuizz">
+    <section class="TitleQuizz Hidden">
         <img src="img/Rectangle 42.svg" alt="">
         <h2>O quão Potterhead é você?</h2>
     </section>
 
-    <nav class="Body Hidden">
-        <section class="CriarQuizzes">
-            <h4>Você não criou nenhum quizz ainda :(</h4>
-            <div class="Button-Criar-Quiz">Criar Quizz</div>
-        </section>
-
-        <section class="TodosQuizzes">
-            <h2>Todos os Quizzes</h2>
-            <ul>
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>Acerte os personagens corretos dos Simpsons e prove seu amor!</h3>
-                </li>
-
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>O quanto você é de boas?</h3>
-                </li>
-
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>O quanto você é de boas?</h3>
-                </li>
-
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>O quanto você é de boas?</h3>
-                </li>
-
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>O quanto você é de boas?</h3>
-                </li>
-
-                <li class="Quizz">
-                    <img src="img/Rectangle 36.svg" alt="">
-                    <h3>O quanto você é de boas?</h3>
-                </li>
-            </ul>
-        </section>
-    </nav>
-
-    <section class="BoxQuestions">
+    <section class="BoxQuestions Hidden">
         <article class="Questions">
             <div class="Question">
                 <p>
@@ -171,8 +138,8 @@
             <div class="Button">Reiniciar Quizz</div>
             <h6 class="BackHome">Voltar pra home</h6>
         </div>
-
     </section>
+</nav>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

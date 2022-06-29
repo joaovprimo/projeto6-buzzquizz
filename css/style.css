@@ -55,7 +55,7 @@ header h1 {
     color: #FFFFFF;
 }
 
-.Body {
+.TelaInicial {
     margin: 0 auto;
     width: 1051px;
     margin-top: 146px;
@@ -136,7 +136,6 @@ h2 {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top);
     border-radius: 5px;
 }
 
@@ -279,7 +278,7 @@ section .PlayerScore {
 }
 
 @media (max-width: 1051px) {
-    .Body {
+    .TelaInicial {
         width: 700px;
         margin-top: 100px;
     }
@@ -290,12 +289,27 @@ section .PlayerScore {
 }
 
 @media (max-width: 700px) {
-    .Body {
-        width: 340px;
+    .TelaInicial {
+        width: 100%;
         margin-top: 100px;
+    }
+    
+    .TodosQuizzes, .CriarQuizzes{
+        margin: 0 auto;
+        width: 60%;
+        min-width: 340px;
     }
 
     .TodosQuizzes {
         margin-top: 35px;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .Quizz {
+        margin-top: 8px;
+        width: 100%;
+        min-width: 340px;
+        height: 210px;
     }
 }
