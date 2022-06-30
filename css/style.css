@@ -278,6 +278,91 @@ section .PlayerScore {
     display: none;
 }
 
+
+.tela3{
+    width: 100%;
+    height: 100vh;
+    margin: 70px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.criaquizztitulo{
+    width: 225px;
+    height: 30px;  
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+.criaquizztitulo h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.criadordadosiniciais{
+    width: 600px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 85px;
+}
+
+.criadordadosiniciais input{
+    width: 565px;
+    height: 45px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.titulocriador::placeholder{
+  padding: 20px;
+    color: #BABABA;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.urlcriador::placeholder{
+    padding: 20px;
+      color: #BABABA;
+      font-style: italic;
+      font-size: 19px;
+  }
+
+  .qtdperguntascriador::placeholder{
+    padding: 20px;
+      color: #BABABA;
+      font-style: italic;
+      font-size: 19px;
+  }
+
+  .qtdniveiscriador::placeholder{
+    padding: 20px;
+      color: #BABABA;
+      font-style: italic;
+      font-size: 19px;
+  }
+
+  .prosseguircriaquiz{
+    width: 370px;
+    height: 55px;
+  }
+
+  .criaquizz1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+
 @media (max-width: 1051px) {
     .TelaInicial {
         width: 700px;
